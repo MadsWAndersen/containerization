@@ -24,7 +24,8 @@
 
             <!--Carousel Wrapper-->
             <div class="col">
-              <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example" data-bs-ride="carousel">
+              <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example"
+                data-bs-ride="carousel">
                 <!--Slides-->
                 <div class="carousel-inner product-links-wap" role="listbox">
 
