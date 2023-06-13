@@ -1,15 +1,21 @@
-# Zay eCommerce
+## Dokumentation
 
-This is a demo project for Containerization & Linux elective at [UCL University College](https://ucl.dk)
+Step 1 - CD ind i frontend mappen og udfør følgende
 
-The frontend is based on the following template:
+    docker build -t con-front-v6 .
 
-* https://github.com/mosaadaldeen/zay-shop
+Step 2 - CD ind i backend mappen og udfør følgende
 
-## Frontend
+    docker build -t con-back-v6 .
 
-There is a specific README.md file in the frontend project
+Step 3 - CD ud i roden til docker-compose.yml og udfør følgende
 
-## Backend
+    docker swarm init
 
-There is a specific README.md file in the backend project
+ Step 4 - Opstart swarmen
+
+    docker stack deploy -c docker-compose.yml exam
+
+ Step 5 - Brug følgende kommando for at tjekke om swarmen er oppe og køre
+
+    docker service ls
